@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19203C1E24C453D800669F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19203C1D24C453D800669F0C /* AppDelegate.swift */; };
+		19203C2024C453D800669F0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19203C1F24C453D800669F0C /* ContentView.swift */; };
+		19203C2324C453D800669F0C /* Stuffy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19203C2124C453D800669F0C /* Stuffy.xcdatamodeld */; };
+		19203C2524C453DA00669F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19203C2424C453DA00669F0C /* Assets.xcassets */; };
+		19203C2824C453DA00669F0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19203C2724C453DA00669F0C /* Preview Assets.xcassets */; };
+		19203C2B24C453DA00669F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19203C2924C453DA00669F0C /* Main.storyboard */; };
+		19203C3724C453DA00669F0C /* StuffyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19203C3624C453DA00669F0C /* StuffyTests.swift */; };
+		19203C4224C453DA00669F0C /* StuffyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19203C4124C453DA00669F0C /* StuffyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19203C3324C453DA00669F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19203C1224C453D800669F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19203C1924C453D800669F0C;
+			remoteInfo = Stuffy;
+		};
+		19203C3E24C453DA00669F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19203C1224C453D800669F0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19203C1924C453D800669F0C;
+			remoteInfo = Stuffy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19203C1A24C453D800669F0C /* Stuffy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stuffy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19203C1D24C453D800669F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19203C1F24C453D800669F0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19203C2224C453D800669F0C /* Stuffy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stuffy.xcdatamodel; sourceTree = "<group>"; };
+		19203C2424C453DA00669F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19203C2724C453DA00669F0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19203C2A24C453DA00669F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19203C2C24C453DA00669F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19203C2D24C453DA00669F0C /* Stuffy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stuffy.entitlements; sourceTree = "<group>"; };
+		19203C3224C453DA00669F0C /* StuffyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StuffyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19203C3624C453DA00669F0C /* StuffyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffyTests.swift; sourceTree = "<group>"; };
+		19203C3824C453DA00669F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19203C3D24C453DA00669F0C /* StuffyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StuffyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19203C4124C453DA00669F0C /* StuffyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffyUITests.swift; sourceTree = "<group>"; };
+		19203C4324C453DA00669F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19203C1724C453D800669F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19203C2F24C453DA00669F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19203C3A24C453DA00669F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19203C1124C453D800669F0C = {
+			isa = PBXGroup;
+			children = (
+				19203C1C24C453D800669F0C /* Stuffy */,
+				19203C3524C453DA00669F0C /* StuffyTests */,
+				19203C4024C453DA00669F0C /* StuffyUITests */,
+				19203C1B24C453D800669F0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19203C1B24C453D800669F0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19203C1A24C453D800669F0C /* Stuffy.app */,
+				19203C3224C453DA00669F0C /* StuffyTests.xctest */,
+				19203C3D24C453DA00669F0C /* StuffyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19203C1C24C453D800669F0C /* Stuffy */ = {
+			isa = PBXGroup;
+			children = (
+				19203C1D24C453D800669F0C /* AppDelegate.swift */,
+				19203C1F24C453D800669F0C /* ContentView.swift */,
+				19203C2424C453DA00669F0C /* Assets.xcassets */,
+				19203C2924C453DA00669F0C /* Main.storyboard */,
+				19203C2C24C453DA00669F0C /* Info.plist */,
+				19203C2D24C453DA00669F0C /* Stuffy.entitlements */,
+				19203C2124C453D800669F0C /* Stuffy.xcdatamodeld */,
+				19203C2624C453DA00669F0C /* Preview Content */,
+			);
+			path = Stuffy;
+			sourceTree = "<group>";
+		};
+		19203C2624C453DA00669F0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19203C2724C453DA00669F0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19203C3524C453DA00669F0C /* StuffyTests */ = {
+			isa = PBXGroup;
+			children = (
+				19203C3624C453DA00669F0C /* StuffyTests.swift */,
+				19203C3824C453DA00669F0C /* Info.plist */,
+			);
+			path = StuffyTests;
+			sourceTree = "<group>";
+		};
+		19203C4024C453DA00669F0C /* StuffyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19203C4124C453DA00669F0C /* StuffyUITests.swift */,
+				19203C4324C453DA00669F0C /* Info.plist */,
+			);
+			path = StuffyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19203C1924C453D800669F0C /* Stuffy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19203C4624C453DA00669F0C /* Build configuration list for PBXNativeTarget "Stuffy" */;
+			buildPhases = (
+				19203C1624C453D800669F0C /* Sources */,
+				19203C1724C453D800669F0C /* Frameworks */,
+				19203C1824C453D800669F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stuffy;
+			productName = Stuffy;
+			productReference = 19203C1A24C453D800669F0C /* Stuffy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19203C3124C453DA00669F0C /* StuffyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19203C4924C453DA00669F0C /* Build configuration list for PBXNativeTarget "StuffyTests" */;
+			buildPhases = (
+				19203C2E24C453DA00669F0C /* Sources */,
+				19203C2F24C453DA00669F0C /* Frameworks */,
+				19203C3024C453DA00669F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19203C3424C453DA00669F0C /* PBXTargetDependency */,
+			);
+			name = StuffyTests;
+			productName = StuffyTests;
+			productReference = 19203C3224C453DA00669F0C /* StuffyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19203C3C24C453DA00669F0C /* StuffyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19203C4C24C453DA00669F0C /* Build configuration list for PBXNativeTarget "StuffyUITests" */;
+			buildPhases = (
+				19203C3924C453DA00669F0C /* Sources */,
+				19203C3A24C453DA00669F0C /* Frameworks */,
+				19203C3B24C453DA00669F0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19203C3F24C453DA00669F0C /* PBXTargetDependency */,
+			);
+			name = StuffyUITests;
+			productName = StuffyUITests;
+			productReference = 19203C3D24C453DA00669F0C /* StuffyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19203C1224C453D800669F0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Harsain Kapoor";
+				TargetAttributes = {
+					19203C1924C453D800669F0C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					19203C3124C453DA00669F0C = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 19203C1924C453D800669F0C;
+					};
+					19203C3C24C453DA00669F0C = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 19203C1924C453D800669F0C;
+					};
+				};
+			};
+			buildConfigurationList = 19203C1524C453D800669F0C /* Build configuration list for PBXProject "Stuffy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19203C1124C453D800669F0C;
+			productRefGroup = 19203C1B24C453D800669F0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19203C1924C453D800669F0C /* Stuffy */,
+				19203C3124C453DA00669F0C /* StuffyTests */,
+				19203C3C24C453DA00669F0C /* StuffyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19203C1824C453D800669F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19203C2B24C453DA00669F0C /* Main.storyboard in Resources */,
+				19203C2824C453DA00669F0C /* Preview Assets.xcassets in Resources */,
+				19203C2524C453DA00669F0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19203C3024C453DA00669F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19203C3B24C453DA00669F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19203C1624C453D800669F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19203C2024C453D800669F0C /* ContentView.swift in Sources */,
+				19203C2324C453D800669F0C /* Stuffy.xcdatamodeld in Sources */,
+				19203C1E24C453D800669F0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19203C2E24C453DA00669F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19203C3724C453DA00669F0C /* StuffyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19203C3924C453DA00669F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19203C4224C453DA00669F0C /* StuffyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19203C3424C453DA00669F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19203C1924C453D800669F0C /* Stuffy */;
+			targetProxy = 19203C3324C453DA00669F0C /* PBXContainerItemProxy */;
+		};
+		19203C3F24C453DA00669F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19203C1924C453D800669F0C /* Stuffy */;
+			targetProxy = 19203C3E24C453DA00669F0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19203C2924C453DA00669F0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19203C2A24C453DA00669F0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19203C4424C453DA00669F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19203C4524C453DA00669F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		19203C4724C453DA00669F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stuffy/Stuffy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Stuffy/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DZF9UW8V6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stuffy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsain.Stuffy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		19203C4824C453DA00669F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Stuffy/Stuffy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Stuffy/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DZF9UW8V6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stuffy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsain.Stuffy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		19203C4A24C453DA00669F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6DZF9UW8V6;
+				INFOPLIST_FILE = StuffyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsain.StuffyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stuffy.app/Contents/MacOS/Stuffy";
+			};
+			name = Debug;
+		};
+		19203C4B24C453DA00669F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6DZF9UW8V6;
+				INFOPLIST_FILE = StuffyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsain.StuffyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stuffy.app/Contents/MacOS/Stuffy";
+			};
+			name = Release;
+		};
+		19203C4D24C453DA00669F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6DZF9UW8V6;
+				INFOPLIST_FILE = StuffyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsain.StuffyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Stuffy;
+			};
+			name = Debug;
+		};
+		19203C4E24C453DA00669F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6DZF9UW8V6;
+				INFOPLIST_FILE = StuffyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harsain.StuffyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Stuffy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19203C1524C453D800669F0C /* Build configuration list for PBXProject "Stuffy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19203C4424C453DA00669F0C /* Debug */,
+				19203C4524C453DA00669F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19203C4624C453DA00669F0C /* Build configuration list for PBXNativeTarget "Stuffy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19203C4724C453DA00669F0C /* Debug */,
+				19203C4824C453DA00669F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19203C4924C453DA00669F0C /* Build configuration list for PBXNativeTarget "StuffyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19203C4A24C453DA00669F0C /* Debug */,
+				19203C4B24C453DA00669F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19203C4C24C453DA00669F0C /* Build configuration list for PBXNativeTarget "StuffyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19203C4D24C453DA00669F0C /* Debug */,
+				19203C4E24C453DA00669F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19203C2124C453D800669F0C /* Stuffy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19203C2224C453D800669F0C /* Stuffy.xcdatamodel */,
+			);
+			currentVersion = 19203C2224C453D800669F0C /* Stuffy.xcdatamodel */;
+			path = Stuffy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19203C1224C453D800669F0C /* Project object */;
+}
